@@ -9,7 +9,6 @@ To clone and build the image, use
 
 ```
 git clone git@gitlab.com:nsf-muses/module-ising-eos/ising_eos.git
-cd src
 make clean
 make run 
 ```
