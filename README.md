@@ -12,3 +12,10 @@ that cover a wide range in the QCD phase diagram relevant for experimental explo
 
 After cloning the [Ising repository](https://github.com/mkahangi/Ising-AltExS.git), the quickest way to execute the module involves building and running  an image.
 To clone and build the image, use
+
+```
+git clone https://github.com/mkahangi/Ising-AltExS.git
+make clean
+make run 
+```
+## Physics
