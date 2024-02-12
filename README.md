@@ -7,15 +7,19 @@ We impose stability and causality constraints and discuss the available ranges o
 that cover a wide range in the QCD phase diagram relevant for experimental exploration. 
 
 # 1. How this Code Works
+
 ## Quick Start
 
+To quickly get started with the Ising Model EOS code, follow these steps:
 
-After cloning the [Ising repository](https://github.com/mkahangi/Ising-AltExS.git), the quickest way to execute the module involves building and running  an image.
-To clone and build the image, use
 
-```
-git clone https://github.com/mkahangi/Ising-AltExS.git
-make clean
-make run 
-```
-## Physics
+1. cloning the [Ising repository](https://github.com/mkahangi/Ising-AltExS.git),
+  ```git clone https://github.com/mkahangi/Ising-AltExS.git```
+
+2. Navigate to the cloned directory and clean previous builds:
+  ```cd Ising-AltExS```
+    ``` make clean```
+3. Build and run the code using:
+  ```make run```
+ 
+After successfully building and running the code, you can customize parameters from the input/parameterfile.
