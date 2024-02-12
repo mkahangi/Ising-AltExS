@@ -23,3 +23,15 @@ To quickly get started with the Ising Model EOS code, follow these steps:
   ```make run```
  
 After successfully building and running the code, you can customize parameters from the input/parameterfile.
+### input/parameterfile
+Specify the parameter choice
+a. lowT_out=10 
+b. highT_out=400
+c. T_step=0.5
+d. lowMU_out=0
+e. highMU_out=700
+f. muB_step=0.5
+g. muBC=350 
+h. alpha12=90
+i. ww=2
+j. rho=2
