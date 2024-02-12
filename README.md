@@ -15,7 +15,7 @@ To clone and build the image, use
 
 
 ```
-git clone git@gitlab.com:nsf-muses/module-ising-eos/ising_eos.git
+git clone https://github.com/mkahangi/Ising-AltExS.git
 make clean
 make run 
 ```
