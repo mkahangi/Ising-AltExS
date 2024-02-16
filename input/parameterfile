@@ -1,10 +1,10 @@
 lowT_out=10 
 highT_out=400
-T_step=0.5
+T_step=1
 lowMU_out=0
 highMU_out=700
-muB_step=0.5
-muBC=350 
-alpha12=90
-ww=2
-rho=2
+muB_step=1
+muBC=650 
+alpha12=14.9552
+ww=15
+rho=0.3
