@@ -28,7 +28,7 @@
 #define c3 -0.00126032
 #define PI 3.14159265358979323846
 
-#define diff 0.01
+#define diff 0.1
 
 using namespace std;
 

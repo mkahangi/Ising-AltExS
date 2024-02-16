@@ -424,8 +424,8 @@ double dBardIsingdmuBA(double T, double muB){
     return T*T*d2PdmuB2(T,muB,RRxx( T,muB),Thetax( T,muB));
 }
 double d3BardIsingdmuB3N(double T, double muB){
-  double diffx=0.01;
-    return T*T*(-dBardIsingdmuBA(T,muB - 2*diffx) + 16*dBardIsingdmuBA(T,muB - diffx) -30*dBardIsingdmuBA(T,muB) + 16*dBardIsingdmuBA(T,muB + diffx) - dBardIsingdmuBA(T,muB + 2*diffx))/(12*diffx*diffx);
+  
+    return T*T*(-dBardIsingdmuBA(T,muB - 2*diff) + 16*dBardIsingdmuBA(T,muB - diff) -30*dBardIsingdmuBA(T,muB) + 16*dBardIsingdmuBA(T,muB + diff) - dBardIsingdmuBA(T,muB + 2*diff))/(12*diff*diff);
 }
 double ddBardIsingdmuBdT(double T, double muB){
     return (dBardIsingdmuBA(T- 2*diff,muB) - 8*dBardIsingdmuBA(T- diff,muB) + 8*dBardIsingdmuBA(T+ diff,muB) - dBardIsingdmuBA(T + 2*diff,muB))/(12*diff);
