@@ -2,7 +2,8 @@
 
 ## Overview
 
-We present a novel construction of the QCD equation of state (EOS) at finite baryon density. Our work combines a recently proposed resummation scheme for lattice QCD results [[1][paper1], [2][paper2]] with the universal critical behavior at the QCD critical point [[3][paper3]]. This allows us to obtain a family of equations of state covering the range \(0 \leq \mu_B \leq 700\) MeV and \(25\) MeV \(\leq T \leq 800\) MeV, which match lattice QCD results near \(\mu_B=0\) while featuring a critical point in the 3D Ising model universality class. This work is based on [[4][paper4]]
+We present a novel construction of the QCD equation of state (EOS) at finite baryon density. Our work combines a recently proposed resummation scheme for lattice QCD results [[1][paper1], [2][paper2]] with the universal critical behavior at the QCD critical point [[3][paper3]]. This allows us to obtain a family of equations of state covering the range \(0 \leq \mu_B \leq 700\) MeV and \(25\) MeV \(\leq T \leq 800\) MeV, which match lattice QCD results near \(\mu_B=0\) while featuring a critical point in the 3D Ising model universality class. 
+The position of the critical point can be chosen within the range accessible to beam-energy scan heavy-ion collision experiments. We parameterize the strength of the singularity and the shape of the critical region using a standard parameter set. We impose stability and causality constraints and discuss the available ranges of critical point parameter choices, finding that they extend beyond earlier parametric QCD EOS proposals. Thermodynamic observables including baryon density, pressure, entropy density, energy density, baryon susceptibility, and speed of sound are presented, covering a wide range in the QCD phase diagram relevant for experimental exploration. This work is based on [[4][paper]]
 
 [//]: # "Link References"
 [paper1]: https://arxiv.org/abs/2102.06660
@@ -10,7 +11,7 @@ We present a novel construction of the QCD equation of state (EOS) at finite bar
 [paper3]: https://journals.aps.org/prc/abstract/10.1103/PhysRevC.101.034901
 [paper4]:  https://arxiv.org/pdf/2402.08636.pdf
 
-...
+
 
 ## How this Code Works
 
