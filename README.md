@@ -51,4 +51,6 @@ Specify the parameter choice:
 - `highMU_out`: Maximum baryon chemical potential. Example: `highMU_out = 700`
 - `muB_step`: Stepsize in Baryon chemical potential. Example: `muB_step = 1`
 - `muBC`: Location of the critical point in chemical potential
-- `alpha12`: Angle between the axis. Example:
+- `alpha12`: Angle between the axis. Example: `alpha12 = 90`
+- `w`: Scaling parameter. Example:`w=2.0`
+- `\rho`: Scaling parameters. Example: `w=2.0`
