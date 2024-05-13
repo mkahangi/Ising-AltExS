@@ -53,4 +53,4 @@ Specify the parameter choice:
 - `muBC`: Location of the critical point in chemical potential
 - `alpha12`: Angle between the axis. Example: `alpha12 = 90`
 - `w`: Scaling parameter. Example:`w=2.0`
-- `\rho`: Scaling parameters. Example: `w=2.0`
+- `rho`: Scaling parameters. Example: `w=2.0`
